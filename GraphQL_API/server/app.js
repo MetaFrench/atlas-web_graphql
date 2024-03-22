@@ -9,8 +9,7 @@ const app = express();
 app.use(cors()); // allow cross-origin requests
 
 // connect MongoDB Atlas database
-const mongoDBAtlasUri = 'mongodb+srv://hayes28:Password@atlascluster.tqd66ql.mongodb.net/?retryWrites=true&w=majority';
-
+const mongoDBAtlasUri =
 mongoose.connect(mongoDBAtlasUri, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.once('open', () => {
     console.log('connected to database');
