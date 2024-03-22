@@ -10,7 +10,7 @@
  const schema = require("./schema/schema");
  const Mongoose = require("mongoose");
  const uri =
-   "mongodb+srv://tayloradam1999:papabless217489@cluster0.hptjf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+   "mongodb+srv://MetaFrench@cluster0.hptjf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
  const app = express();
  const cors = require("cors");
  app.use(cors());
